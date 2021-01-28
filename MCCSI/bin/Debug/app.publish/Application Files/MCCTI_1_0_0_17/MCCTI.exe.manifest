@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MCCTI.exe" version="1.0.0.17" publicKeyToken="2bbf810a8254812c" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Oxygen-Icons.org-Oxygen-Apps-preferences-kcalc-constants.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MCCTI" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="MCCTI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MCCTI.exe" size="406496">
+      <assemblyIdentity name="MCCTI" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>udH5YdK+7pwZbGotfyeBEvICHcihlcQofLIepBnDb2o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MCCTI.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Oxygen-Icons.org-Oxygen-Apps-preferences-kcalc-constants.ico" size="181495">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uD3xS4REBmmr0WeGsAfqQbbX8zqzDPooVXxLaVpJL8g=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-A5V674K0\14025" issuerKeyHash="1fe7506a1f74fd6c398d9645494f5b464f2b4906" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yF1VK7af/Y0eX8wOZSXnTacpqtNh8VpTzg3jVH3b5iM=</DigestValue></Reference></SignedInfo><SignatureValue>NTIwVsgNIpgmltw2ZiBrFG0h1W8tdatJNwOUsNBxb1JgDuninBmDbEAxk65dWkOQMveV257PkVKAmmVKpl90iUPqRJQ6sP/hG5a43oduxh7yj+ttXjdvS1cRb5gWYHhbPVFpzlKfg/FtqxBhlXCpzRFDzrp859EwXS7ElloQVjk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xrvZl8FvTc906z1YeP5WaMCDLSVogdeU1+DGHENlI9d3Bdh1DU5c7UTbvyut0zn9yqmo3Gb8Xg0rJvVFtMz9oheQd0jgQl6rGd26oYONGqOY1F91btKo/EmPlCnKX3eAp+EON3a7pddlrAOo4i8z86nePyzAZMsJxvUvz+igQuk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="23e6db7d54e30dce535af161d3aa29a74de725650ecc5f1e8dfd9fb62b555dc8" Description="" Url=""><as:assemblyIdentity name="MCCTI.exe" version="1.0.0.17" publicKeyToken="2bbf810a8254812c" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-A5V674K0\14025</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3t5ETluN+R6i3tmv8POAQL3T3Mr8Iexk4lrionzAJq4=</DigestValue></Reference></SignedInfo><SignatureValue>W96VYipAQLZWlXKICaFMxe1Trf0bSCObhO6n7qUq29/3BKEZvR+5OXQ4JfNuWZy3aEQBocYWtKw/Jny/PEMIv9B4fL7q/mRSzsbyBLoPIYSY8C5C75e0I7Ztii+fx9/6gAexL/piknXi4KDfoagqBZrLrJnFNToCZMnDaC8kBFM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xrvZl8FvTc906z1YeP5WaMCDLSVogdeU1+DGHENlI9d3Bdh1DU5c7UTbvyut0zn9yqmo3Gb8Xg0rJvVFtMz9oheQd0jgQl6rGd26oYONGqOY1F91btKo/EmPlCnKX3eAp+EON3a7pddlrAOo4i8z86nePyzAZMsJxvUvz+igQuk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQI44tUz8t55xOIHSob9u18jANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBBADUAVgA2ADcANABLADAAXAAxADQAMAAyADUwHhcNMjEwMTAzMDMzMDI5WhcNMjIwMTAzMDkzMDI5WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBBADUAVgA2ADcANABLADAAXAAxADQAMAAyADUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMa72ZfBb03PdOs9WHj+VmjAgy0laIHXlNfgxhxDZSPXdwXYdQ1OXO1E278rrdM5/cqpqNxm/F4NKyb1RbTM/aIXkHdI4EJeqxnduqGDjRqjmNRfdW7SqPxJj5Qpyl93gKfhDjd2u6XXZawDqOIvM/Op3j8swGTLCcb1L8/ooELpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAMRHCtdGhvKVAWIvtSybEH12NSFPINKI69+/QkH+0pxeLNg4FZFNrXHp0WFn4jLVZ5UVKM1WLyoq/2YenGrHU1arWq2Vj6IapbX8gMXD6rOfqBntL7KwBrHKI0c6kOUZuRhhJhYL9CaPW1Twtv/Du094hh+APRwGXrPHiU3ihAgI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

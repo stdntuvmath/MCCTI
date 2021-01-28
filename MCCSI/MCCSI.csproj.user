@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>B:\Applications\MCCSI\|B:\Applications\|publish\</PublishUrlHistory>
+    <InstallUrlHistory>//localhost/B%24/MCCSI/|//localhost/B%24/MCCSI/Application Files/|http://LAPTOP-A5V674K0/SampleApplication/|http://chrish/SampleApplication/|\\localhost\B%24\MCCSI\</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>\\server\myapplication\</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>B:\Applications\MCCSI\</ReferencePath>
+  </PropertyGroup>
+</Project>

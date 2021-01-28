@@ -1,0 +1,17 @@
+C:\Users\14025\source\repos\MCCSI\MCCSI\obj\Debug\MCCSI.csprojAssemblyReference.cache
+C:\Users\14025\source\repos\MCCSI\MCCSI\obj\Debug\MCCSI.Form1.resources
+C:\Users\14025\source\repos\MCCSI\MCCSI\obj\Debug\MCCSI.Properties.Resources.resources
+C:\Users\14025\source\repos\MCCSI\MCCSI\obj\Debug\MCCSI.csproj.GenerateResource.cache
+C:\Users\14025\source\repos\MCCSI\MCCSI\obj\Debug\MCCSI.csproj.ResolveComReference.cache
+C:\Users\14025\source\repos\MCCSI\MCCSI\obj\Debug\MCCSI.Form_GetTutorName.resources
+C:\Users\14025\source\repos\MCCSI\MCCSI\obj\Debug\MCCSI.Form_ChangeLink.resources
+C:\Users\14025\source\repos\MCCSI\MCCSI\obj\Debug\MCCSI.Form_ChangePassword.resources
+C:\Users\14025\source\repos\MCCSI\MCCSI\bin\Debug\MCCTI.exe.config
+C:\Users\14025\source\repos\MCCSI\MCCSI\bin\Debug\MCCTI.exe.manifest
+C:\Users\14025\source\repos\MCCSI\MCCSI\bin\Debug\MCCTI.application
+C:\Users\14025\source\repos\MCCSI\MCCSI\bin\Debug\MCCTI.exe
+C:\Users\14025\source\repos\MCCSI\MCCSI\bin\Debug\MCCTI.pdb
+C:\Users\14025\source\repos\MCCSI\MCCSI\obj\Debug\MCCTI.exe.manifest
+C:\Users\14025\source\repos\MCCSI\MCCSI\obj\Debug\MCCTI.application
+C:\Users\14025\source\repos\MCCSI\MCCSI\obj\Debug\MCCTI.exe
+C:\Users\14025\source\repos\MCCSI\MCCSI\obj\Debug\MCCTI.pdb
