@@ -1,0 +1,3 @@
+# MCCTI
+MCCTI (formerly known as MCCSI) allows MCC math tutors to tutor students and keep track of the students they tutor online.
+This program allows the tutor a one-click login to the MCC website as well as the Kronos clock-in site. It creates a file system in the Documents folder that keeps track of every student that has been tutored. When the students name and class information are entered, a word document is created that allows for tutoring work to be shown using the equation design editor in Microsoft Word (cntl+). This program also allows the tutor to change who is running the interface. Four data items are maintained and updated on a hidden psv file, tutors name, password, current zoom meeting link, and the student folder auto open checkbox data. 
